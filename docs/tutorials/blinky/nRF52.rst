@@ -19,6 +19,7 @@ Prerequisites
 -  Have a nRF52 Development Kit (one of the following)
 
    -  Nordic nRF52-DK Development Kit - PCA 10040
+   -  Nordic nRF52840-DK Development Kit - PCA 10056
    -  Rigado BMD-300 Evaluation Kit - BMD-300-EVAL-ES
 
 -  Install the `Segger JLINK Software and documentation
@@ -67,6 +68,7 @@ to create a bootloader target. We name the target ``nrf52_boot``:
 Note: This tutorial uses the Nordic nRF52-DK board. You must specify
 the correct bsp for the board you are using.
 
+-  For the nRF52840-DK choose @apache-mynewt-core/hw/bsp/nordic_pca10056
 -  For the Rigado Eval Kit choose @apache-mynewt-core/hw/bsp/bmd300eval
    instead (in the highlighted lines)
 
